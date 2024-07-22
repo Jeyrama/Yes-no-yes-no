@@ -18,3 +18,15 @@ Examples:
 
 
 // Solution
+
+function yesNo(arr){
+  let take = true;
+  let newarray = [];
+  let limit = arr.length;
+  
+  while ( newarray.length < limit ) {
+    take === true ? newarray.push(arr[0]) : arr.push(arr[0]);
+    arr.splice(0,1);
+    take = !take; 
+  }
+}
