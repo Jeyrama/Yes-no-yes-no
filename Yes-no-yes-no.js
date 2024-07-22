@@ -29,4 +29,3 @@ function yesNo(arr){
     arr.splice(0,1);
     take = !take; 
   }
-}
