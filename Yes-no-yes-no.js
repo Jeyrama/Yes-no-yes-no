@@ -15,3 +15,6 @@ Examples:
   arr = ['this', 'code', 'is', 'right', 'the']
   -> ['this', 'is', 'the', 'right', 'code']
 */
+
+
+// Solution
